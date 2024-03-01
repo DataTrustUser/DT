@@ -602,6 +602,16 @@
         "JobletId": null,
         "Decision": null,
         "JobId": null
+      },
+      {
+        "Id": 125,
+        "ScenarioId": 123,
+        "QueryId": null,
+        "StepId": 7,
+        "Dependency": 20,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
       }
     ],
     "ThirdPartyAPIParams": [
