@@ -29,7 +29,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Saikiran 4/3/2024 2:07:04 PM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 4/3/2024 2:07:04 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 260.619px; top: 191.988px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 491.762px; top: 192.452px;\",\"mapping\":\"79,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 4/3/2024 2:07:04 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 260.619px; top: 191.988px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 491.762px; top: 192.452px;\",\"mapping\":\"79,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"File_dropped.3\",\"UniqueId\":\"88\",\"stepId\":\"3\",\"description\":\"Offload the File\",\"position\":\"pointer-events: all; position: absolute; left: 674.762px; top: 128.452px;\",\"mapping\":\"88,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Saikiran",
         "FId": 1,
@@ -248,6 +248,35 @@
         "LATEST_OUTPUT_VIEW_NAME": "QC_28202_CUR",
         "Overwritesnapshot": false,
         "JsonValue": null
+      },
+      {
+        "Id": 237082,
+        "ScenarioId": null,
+        "QueryId": 28202,
+        "Job_Id": null,
+        "Step": 3,
+        "StepMapping": "88,3-[79,2]",
+        "TransformationId": 88,
+        "Description": "Offload the File",
+        "Position": "pointer-events: all; position: absolute; left: 674.762px; top: 128.452px;",
+        "CreatedOn": "2024-04-03T14:08:33.203",
+        "CreatedBy": 121,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null
       }
     ],
     "SimpleFilters": [],
@@ -284,6 +313,26 @@
     "PivotDetails": [],
     "UnPivotDetails": [],
     "PivotFieldType": [],
-    "FileOffload": []
+    "FileOffload": [
+      {
+        "Id": 1708,
+        "Type": null,
+        "IsFileCreated": null,
+        "FileName": "QC_28202_Saikiran 4/3/2024 2:07:04 PM",
+        "FilePath": null,
+        "FileSize": null,
+        "FileCreatedOn": "2024-04-03T14:08:33.273",
+        "FolderId": 0,
+        "ScenarioId": null,
+        "JobId": null,
+        "QueryId": 28202,
+        "SessionId": 2,
+        "Row_Count": null,
+        "Delimiter": ",",
+        "TextQualifier": "\"",
+        "OverrideFile": false,
+        "Header": true
+      }
+    ]
   }
 ]
