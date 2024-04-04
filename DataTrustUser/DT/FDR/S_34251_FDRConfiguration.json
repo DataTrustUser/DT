@@ -15,7 +15,7 @@
         "ExtraColumn": null,
         "IgnoreKeyDuplicates": false,
         "IsAdhoc": null,
-        "IsDeleted": true,
+        "IsDeleted": false,
         "IsHeavyWeightEngine": false,
         "IsMigrated": null,
         "IsRowBased": null,
@@ -23,7 +23,7 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 4/4/2024 10:21:27 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 258.521px; top: 118.058px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 248.525px; top: 261.069px;\",\"mapping\":\"2,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRecon_dropped_3\",\"UniqueId\":\"15\",\"stepId\":\"3\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 505.722px; top: 163.069px;\",\"mapping\":\"15,3-[2,1-2,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsEmail_dropped_4\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 762.722px; top: 153.069px;\",\"mapping\":\"20,4-[15,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 4/4/2024 10:21:27 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 258.521px; top: 118.058px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRelTable_dropped_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 248.525px; top: 261.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,2-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRecon_dropped_3\",\"UniqueId\":\"15\",\"stepId\":\"3\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 505.722px; top: 163.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"15,3-[2,1-2,2]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsEmail_dropped_4\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 762.722px; top: 153.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"20,4-[15,3]\",\"dsstep\":null,\"activestatus\":null}]",
         "LevelOne_Id": null,
         "LevelTwo_Id": null,
         "LevelThree_Id": null,
@@ -48,11 +48,11 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 41152,
+        "Id": 41156,
         "Scenario_Header_Id": 34251,
         "Profile_Id": 1158,
         "Query_Id": null,
-        "DCStep_Id": 237646,
+        "DCStep_Id": 237661,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "TPCH_1.dbo.NATION",
@@ -60,7 +60,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": null,
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -143,17 +143,17 @@
         ],
         "SourceName_Id": 100,
         "ProfileName": "MSSQL_J",
-        "CreatedOnSC": "2024-04-04T10:22:06.743",
-        "CreatedBySC": 231,
+        "CreatedOnSC": null,
+        "CreatedBySC": null,
         "ModifiedOnSC": null,
         "ModifiedBySC": null
       },
       {
-        "Id": 41153,
+        "Id": 41157,
         "Scenario_Header_Id": 34251,
         "Profile_Id": 1158,
         "Query_Id": null,
-        "DCStep_Id": 237647,
+        "DCStep_Id": 237662,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "TPCH_1.dbo.NATION",
@@ -161,7 +161,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": null,
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -244,8 +244,8 @@
         ],
         "SourceName_Id": 100,
         "ProfileName": "MSSQL_J",
-        "CreatedOnSC": "2024-04-04T10:22:41.137",
-        "CreatedBySC": 231,
+        "CreatedOnSC": null,
+        "CreatedBySC": null,
         "ModifiedOnSC": null,
         "ModifiedBySC": null
       }
@@ -255,7 +255,7 @@
     "Query": null,
     "DCSteps": [
       {
-        "Id": 237645,
+        "Id": 237660,
         "ScenarioId": 34251,
         "QueryId": null,
         "Job_Id": null,
@@ -264,7 +264,7 @@
         "TransformationId": 0,
         "Description": "Dhanusha 4/4/2024 10:21:27 AM",
         "Position": null,
-        "CreatedOn": "2024-04-04T10:21:35.357",
+        "CreatedOn": "2024-04-04T10:32:02.757",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -286,7 +286,7 @@
         "JsonValue": null
       },
       {
-        "Id": 237646,
+        "Id": 237661,
         "ScenarioId": 34251,
         "QueryId": null,
         "Job_Id": null,
@@ -295,7 +295,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH_1.dbo.NATION\" for data source \"MSSQL_J\"",
         "Position": "position: absolute; left: 258.521px; top: 118.058px;",
-        "CreatedOn": "2024-04-04T10:22:06.697",
+        "CreatedOn": "2024-04-04T10:32:02.837",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -317,7 +317,7 @@
         "JsonValue": null
       },
       {
-        "Id": 237647,
+        "Id": 237662,
         "ScenarioId": 34251,
         "QueryId": null,
         "Job_Id": null,
@@ -326,7 +326,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH_1.dbo.NATION\" for data source \"MSSQL_J\"",
         "Position": "position: absolute; left: 248.525px; top: 261.069px;",
-        "CreatedOn": "2024-04-04T10:22:41.09",
+        "CreatedOn": "2024-04-04T10:32:02.947",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -348,7 +348,7 @@
         "JsonValue": null
       },
       {
-        "Id": 237648,
+        "Id": 237663,
         "ScenarioId": 34251,
         "QueryId": null,
         "Job_Id": null,
@@ -357,10 +357,10 @@
         "TransformationId": 15,
         "Description": "Map source & target fields",
         "Position": "position: absolute; left: 505.722px; top: 163.069px;",
-        "CreatedOn": "2024-04-04T10:22:45.307",
+        "CreatedOn": "2024-04-04T10:32:03.087",
         "CreatedBy": 231,
-        "ModifiedOn": "2024-04-04T10:23:05.05",
-        "ModifiedBy": 231,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -379,7 +379,7 @@
         "JsonValue": null
       },
       {
-        "Id": 237649,
+        "Id": 237664,
         "ScenarioId": 34251,
         "QueryId": null,
         "Job_Id": null,
@@ -388,10 +388,10 @@
         "TransformationId": 20,
         "Description": "Email",
         "Position": "position: absolute; left: 762.722px; top: 153.069px;",
-        "CreatedOn": "2024-04-04T10:24:05.577",
+        "CreatedOn": "2024-04-04T10:32:03.18",
         "CreatedBy": 231,
-        "ModifiedOn": "2024-04-04T10:24:11.01",
-        "ModifiedBy": 231,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -428,7 +428,7 @@
     "DCStepsQC": [],
     "MapNRecon": [
       {
-        "Id": 247951,
+        "Id": 247959,
         "Scenario_Header_Id": 34251,
         "SourceColumnName": "N_NATIONKEY",
         "SourceAliasColumnName": null,
@@ -446,7 +446,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-04-04T10:23:04.877",
+        "CreatedOn": "2024-04-04T10:32:03.103",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -456,7 +456,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 247952,
+        "Id": 247960,
         "Scenario_Header_Id": 34251,
         "SourceColumnName": "N_NAME",
         "SourceAliasColumnName": null,
@@ -474,7 +474,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-04-04T10:23:04.877",
+        "CreatedOn": "2024-04-04T10:32:03.117",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -484,7 +484,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 247953,
+        "Id": 247961,
         "Scenario_Header_Id": 34251,
         "SourceColumnName": "N_REGIONKEY",
         "SourceAliasColumnName": null,
@@ -502,7 +502,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-04-04T10:23:04.877",
+        "CreatedOn": "2024-04-04T10:32:03.117",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -512,7 +512,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 247954,
+        "Id": 247962,
         "Scenario_Header_Id": 34251,
         "SourceColumnName": "N_COMMENT",
         "SourceAliasColumnName": null,
@@ -530,7 +530,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-04-04T10:23:04.877",
+        "CreatedOn": "2024-04-04T10:32:03.143",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -543,8 +543,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 459807,
-        "ScenarioDataSourceId": 41152,
+        "Id": 459823,
+        "ScenarioDataSourceId": 41156,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.NATION",
@@ -560,8 +560,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459808,
-        "ScenarioDataSourceId": 41152,
+        "Id": 459824,
+        "ScenarioDataSourceId": 41156,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.NATION",
@@ -577,8 +577,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459809,
-        "ScenarioDataSourceId": 41152,
+        "Id": 459825,
+        "ScenarioDataSourceId": 41156,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.NATION",
@@ -594,8 +594,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459810,
-        "ScenarioDataSourceId": 41152,
+        "Id": 459826,
+        "ScenarioDataSourceId": 41156,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.NATION",
@@ -611,8 +611,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459811,
-        "ScenarioDataSourceId": 41153,
+        "Id": 459827,
+        "ScenarioDataSourceId": 41157,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.NATION",
@@ -628,8 +628,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459812,
-        "ScenarioDataSourceId": 41153,
+        "Id": 459828,
+        "ScenarioDataSourceId": 41157,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.NATION",
@@ -645,8 +645,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459813,
-        "ScenarioDataSourceId": 41153,
+        "Id": 459829,
+        "ScenarioDataSourceId": 41157,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.NATION",
@@ -662,8 +662,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459814,
-        "ScenarioDataSourceId": 41153,
+        "Id": 459830,
+        "ScenarioDataSourceId": 41157,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.NATION",
@@ -694,7 +694,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 149721,
+        "Id": 149734,
         "ScenarioId": 34251,
         "QueryId": null,
         "StepId": 0,
@@ -704,7 +704,7 @@
         "JobId": null
       },
       {
-        "Id": 149722,
+        "Id": 149735,
         "ScenarioId": 34251,
         "QueryId": null,
         "StepId": 1,
@@ -714,7 +714,7 @@
         "JobId": null
       },
       {
-        "Id": 149723,
+        "Id": 149736,
         "ScenarioId": 34251,
         "QueryId": null,
         "StepId": 2,
@@ -724,7 +724,7 @@
         "JobId": null
       },
       {
-        "Id": 149724,
+        "Id": 149737,
         "ScenarioId": 34251,
         "QueryId": null,
         "StepId": 3,
@@ -734,7 +734,7 @@
         "JobId": null
       },
       {
-        "Id": 149725,
+        "Id": 149738,
         "ScenarioId": 34251,
         "QueryId": null,
         "StepId": 4,
@@ -747,7 +747,7 @@
     "ThirdPartyAPIParams": [],
     "EmailAlerts": [
       {
-        "Id": 14393,
+        "Id": 14394,
         "Scenario_Header_Id": 34251,
         "Query_Id": null,
         "Job_Id": null,
@@ -757,15 +757,15 @@
         "EmailWhen_S": "kotari.dhanusha@getrightdata.com",
         "FailRDjobWhenRecon_F": null,
         "DelayedTargetCompare": null,
-        "AttachResultsInEmail": false,
-        "ExportType": "",
+        "AttachResultsInEmail": null,
+        "ExportType": null,
         "RaiseDefect": null,
-        "CreatedOn": "2024-04-04T10:24:10.933",
+        "CreatedOn": "2024-04-04T10:32:03.197",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": null,
-        "DependantStepId": 0,
+        "DependantStepId": null,
         "EmailTemplateId": null
       }
     ],
