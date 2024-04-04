@@ -23,14 +23,14 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 4/4/2024 6:49:16 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch1.nation\\\" for data source \\\"PostgreSql_NJ\\\"\",\"position\":\"position: absolute; left: 305.519px; top: 103.06px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRecon_3\",\"UniqueId\":\"15\",\"stepId\":\"3\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 599.706px; top: 190.06px;\",\"mapping\":\"15,3-[2,1-2,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcAddOptionItem_4\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 816.722px; top: 178.069px;\",\"mapping\":\"20,4-[15,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_5\",\"UniqueId\":\"2\",\"stepId\":\"5\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 299.525px; top: 303.069px;\",\"mapping\":\"2,5-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 4/4/2024 6:49:16 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch1.nation\\\" for data source \\\"PostgreSql_NJ\\\"\",\"position\":\"position: absolute; left: 305.519px; top: 103.06px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRecon_3\",\"UniqueId\":\"15\",\"stepId\":\"3\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 599.706px; top: 190.06px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"15,3-[2,1-2,5]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRelTable_dropped_5\",\"UniqueId\":\"2\",\"stepId\":\"5\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 299.525px; top: 303.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,5-[0,0]\",\"dsstep\":null,\"activestatus\":null}]",
         "LevelOne_Id": null,
         "LevelTwo_Id": null,
         "LevelThree_Id": null,
         "Priority": null,
         "ModifiedBy": 231,
         "MigratedOn": null,
-        "ModifiedOn": "2024-04-04T09:46:57.387",
+        "ModifiedOn": "2024-04-04T09:48:36.007",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -48,11 +48,11 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 41120,
+        "Id": 41133,
         "Scenario_Header_Id": 34239,
         "Profile_Id": 1142,
         "Query_Id": null,
-        "DCStep_Id": 237524,
+        "DCStep_Id": 237562,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "tpch1.nation",
@@ -149,11 +149,11 @@
         "ModifiedBySC": null
       },
       {
-        "Id": 41122,
+        "Id": 41134,
         "Scenario_Header_Id": 34239,
         "Profile_Id": 1158,
         "Query_Id": null,
-        "DCStep_Id": 237528,
+        "DCStep_Id": 237565,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "TPCH_1.dbo.NATION",
@@ -161,7 +161,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": null,
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -244,8 +244,8 @@
         ],
         "SourceName_Id": 100,
         "ProfileName": "MSSQL_J",
-        "CreatedOnSC": "2024-04-04T09:46:35.71",
-        "CreatedBySC": 231,
+        "CreatedOnSC": null,
+        "CreatedBySC": null,
         "ModifiedOnSC": null,
         "ModifiedBySC": null
       }
@@ -255,7 +255,7 @@
     "Query": null,
     "DCSteps": [
       {
-        "Id": 237523,
+        "Id": 237561,
         "ScenarioId": 34239,
         "QueryId": null,
         "Job_Id": null,
@@ -264,7 +264,7 @@
         "TransformationId": 0,
         "Description": "Git hub testing",
         "Position": null,
-        "CreatedOn": "2024-04-04T09:45:28.767",
+        "CreatedOn": "2024-04-04T09:53:35.96",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -286,7 +286,7 @@
         "JsonValue": null
       },
       {
-        "Id": 237524,
+        "Id": 237562,
         "ScenarioId": 34239,
         "QueryId": null,
         "Job_Id": null,
@@ -295,7 +295,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"tpch1.nation\" for data source \"PostgreSql_NJ\"",
         "Position": "position: absolute; left: 305.519px; top: 103.06px;",
-        "CreatedOn": "2024-04-04T09:45:28.817",
+        "CreatedOn": "2024-04-04T09:53:36.033",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -317,7 +317,7 @@
         "JsonValue": null
       },
       {
-        "Id": 237526,
+        "Id": 237563,
         "ScenarioId": 34239,
         "QueryId": null,
         "Job_Id": null,
@@ -326,38 +326,7 @@
         "TransformationId": 15,
         "Description": "Map source & target fields",
         "Position": "position: absolute; left: 599.706px; top: 190.06px;",
-        "CreatedOn": "2024-04-04T09:45:28.977",
-        "CreatedBy": 231,
-        "ModifiedOn": "2024-04-04T09:46:51.093",
-        "ModifiedBy": 231,
-        "Status": true,
-        "ErrorCodes": null,
-        "SourceOrTarget": null,
-        "DataSourcePK_Id": null,
-        "Warning": false,
-        "JobletId": null,
-        "Decision": null,
-        "MaxPacketSize": null,
-        "MaxParallelism": null,
-        "IsLastStep": null,
-        "PreviousMetaStructure": null,
-        "Overwritesnapshot": null,
-        "IsPreBlend": null,
-        "BlendStepId": null,
-        "LATEST_OUTPUT_VIEW_NAME": null,
-        "JsonValue": null
-      },
-      {
-        "Id": 237527,
-        "ScenarioId": 34239,
-        "QueryId": null,
-        "Job_Id": null,
-        "Step": 4,
-        "StepMapping": "20,4-[15,3]",
-        "TransformationId": 20,
-        "Description": "Email",
-        "Position": "position: absolute; left: 816.722px; top: 178.069px;",
-        "CreatedOn": "2024-04-04T09:45:29.037",
+        "CreatedOn": "2024-04-04T09:53:36.097",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -379,7 +348,7 @@
         "JsonValue": null
       },
       {
-        "Id": 237528,
+        "Id": 237565,
         "ScenarioId": 34239,
         "QueryId": null,
         "Job_Id": null,
@@ -388,10 +357,10 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH_1.dbo.NATION\" for data source \"MSSQL_J\"",
         "Position": "position: absolute; left: 299.525px; top: 303.069px;",
-        "CreatedOn": "2024-04-04T09:45:48.693",
+        "CreatedOn": "2024-04-04T09:53:36.203",
         "CreatedBy": 231,
-        "ModifiedOn": "2024-04-04T09:46:35.68",
-        "ModifiedBy": 231,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": false,
@@ -428,7 +397,7 @@
     "DCStepsQC": [],
     "MapNRecon": [
       {
-        "Id": 247887,
+        "Id": 247911,
         "Scenario_Header_Id": 34239,
         "SourceColumnName": "n_nationkey",
         "SourceAliasColumnName": null,
@@ -446,7 +415,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-04-04T09:46:50.91",
+        "CreatedOn": "2024-04-04T09:53:36.103",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -456,7 +425,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 247888,
+        "Id": 247912,
         "Scenario_Header_Id": 34239,
         "SourceColumnName": "n_name",
         "SourceAliasColumnName": null,
@@ -474,7 +443,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-04-04T09:46:50.91",
+        "CreatedOn": "2024-04-04T09:53:36.107",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -484,7 +453,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 247889,
+        "Id": 247913,
         "Scenario_Header_Id": 34239,
         "SourceColumnName": "n_regionkey",
         "SourceAliasColumnName": null,
@@ -502,7 +471,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-04-04T09:46:50.91",
+        "CreatedOn": "2024-04-04T09:53:36.11",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -512,7 +481,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 247890,
+        "Id": 247914,
         "Scenario_Header_Id": 34239,
         "SourceColumnName": "n_comment",
         "SourceAliasColumnName": null,
@@ -530,7 +499,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-04-04T09:46:50.91",
+        "CreatedOn": "2024-04-04T09:53:36.117",
         "CreatedBy": 231,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -543,8 +512,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 459679,
-        "ScenarioDataSourceId": 41120,
+        "Id": 459731,
+        "ScenarioDataSourceId": 41133,
         "DBlendId": null,
         "ProfileId": 1142,
         "TableName": "tpch1.nation",
@@ -560,8 +529,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459680,
-        "ScenarioDataSourceId": 41120,
+        "Id": 459732,
+        "ScenarioDataSourceId": 41133,
         "DBlendId": null,
         "ProfileId": 1142,
         "TableName": "tpch1.nation",
@@ -577,8 +546,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459681,
-        "ScenarioDataSourceId": 41120,
+        "Id": 459733,
+        "ScenarioDataSourceId": 41133,
         "DBlendId": null,
         "ProfileId": 1142,
         "TableName": "tpch1.nation",
@@ -594,8 +563,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459682,
-        "ScenarioDataSourceId": 41120,
+        "Id": 459734,
+        "ScenarioDataSourceId": 41133,
         "DBlendId": null,
         "ProfileId": 1142,
         "TableName": "tpch1.nation",
@@ -611,8 +580,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459687,
-        "ScenarioDataSourceId": 41122,
+        "Id": 459735,
+        "ScenarioDataSourceId": 41134,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.NATION",
@@ -628,8 +597,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459688,
-        "ScenarioDataSourceId": 41122,
+        "Id": 459736,
+        "ScenarioDataSourceId": 41134,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.NATION",
@@ -645,8 +614,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459689,
-        "ScenarioDataSourceId": 41122,
+        "Id": 459737,
+        "ScenarioDataSourceId": 41134,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.NATION",
@@ -662,8 +631,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 459690,
-        "ScenarioDataSourceId": 41122,
+        "Id": 459738,
+        "ScenarioDataSourceId": 41134,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.NATION",
@@ -694,7 +663,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 149612,
+        "Id": 149644,
         "ScenarioId": 34239,
         "QueryId": null,
         "StepId": 0,
@@ -704,7 +673,7 @@
         "JobId": null
       },
       {
-        "Id": 149613,
+        "Id": 149645,
         "ScenarioId": 34239,
         "QueryId": null,
         "StepId": 1,
@@ -714,7 +683,7 @@
         "JobId": null
       },
       {
-        "Id": 149614,
+        "Id": 149646,
         "ScenarioId": 34239,
         "QueryId": null,
         "StepId": 2,
@@ -724,7 +693,7 @@
         "JobId": null
       },
       {
-        "Id": 149615,
+        "Id": 149647,
         "ScenarioId": 34239,
         "QueryId": null,
         "StepId": 3,
@@ -734,7 +703,7 @@
         "JobId": null
       },
       {
-        "Id": 149616,
+        "Id": 149648,
         "ScenarioId": 34239,
         "QueryId": null,
         "StepId": 4,
@@ -744,7 +713,7 @@
         "JobId": null
       },
       {
-        "Id": 149618,
+        "Id": 149649,
         "ScenarioId": 34239,
         "QueryId": null,
         "StepId": 5,
@@ -755,30 +724,7 @@
       }
     ],
     "ThirdPartyAPIParams": [],
-    "EmailAlerts": [
-      {
-        "Id": 14382,
-        "Scenario_Header_Id": 34239,
-        "Query_Id": null,
-        "Job_Id": null,
-        "WhenFaild": true,
-        "EmailWhen_F": "kotari.dhanusha@getrightdata.com",
-        "WhenSuccess": true,
-        "EmailWhen_S": "kotari.dhanusha@getrightdata.com",
-        "FailRDjobWhenRecon_F": null,
-        "DelayedTargetCompare": null,
-        "AttachResultsInEmail": false,
-        "ExportType": null,
-        "RaiseDefect": false,
-        "CreatedOn": "2024-04-04T09:45:29.037",
-        "CreatedBy": 231,
-        "ModifiedOn": "2024-04-04T09:46:56.603",
-        "ModifiedBy": 231,
-        "Status": null,
-        "DependantStepId": null,
-        "EmailTemplateId": null
-      }
-    ],
+    "EmailAlerts": [],
     "Pivotdetals": [],
     "UnPivotdetals": [],
     "PivotFieldType": []
