@@ -305,7 +305,13 @@
         "IsPreBlend": null,
         "BlendStepId": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": true,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       },
       {
         "Id": 49066,
@@ -336,7 +342,13 @@
         "IsPreBlend": null,
         "BlendStepId": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": true,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       },
       {
         "Id": 49067,
@@ -367,7 +379,13 @@
         "IsPreBlend": null,
         "BlendStepId": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": true,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       },
       {
         "Id": 49068,
@@ -398,7 +416,13 @@
         "IsPreBlend": null,
         "BlendStepId": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": true,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       }
     ],
     "MigrateQCData": [],
@@ -985,6 +1009,7 @@
     ],
     "ThirdPartyAPIParams": [],
     "EmailAlerts": [],
+    "FileOffload": [],
     "Pivotdetals": [],
     "UnPivotdetals": [],
     "PivotFieldType": []
