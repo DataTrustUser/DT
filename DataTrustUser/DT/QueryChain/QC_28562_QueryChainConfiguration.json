@@ -29,7 +29,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Dhanusha 4/18/2024 5:39:07 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 4/18/2024 5:39:07 AM\",\"position\":\"position: absolute; left: 83px; top: 165.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsBulkRelTable_dropped.1\",\"UniqueId\":\"152\",\"stepId\":\"1\",\"description\":\"Read data from \\\"3\\\" tables  for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 260.042px; top: 166.677px;\",\"mapping\":\"152,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 461.667px; top: 165.635px;\",\"mapping\":\"79,2-[152,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Bulk Data Profiling\",\"position\":\"position: absolute; left: 659.667px; top: 163.635px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 4/18/2024 5:39:07 AM\",\"position\":\"position: absolute; left: 83px; top: 165.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsBulkRelTable_dropped.1\",\"UniqueId\":\"152\",\"stepId\":\"1\",\"description\":\"Read data from \\\"3\\\" tables  for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 260.042px; top: 166.677px;\",\"mapping\":\"152,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 461.667px; top: 165.635px;\",\"mapping\":\"79,2-[152,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Bulk Data Profiling\",\"position\":\"position: absolute; left: 659.667px; top: 163.635px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"Email_dropped.4\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 646.667px; top: 52.6354px;\",\"mapping\":\"20,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Dhanusha",
         "FId": 2439,
@@ -334,6 +334,35 @@
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": false,
         "JsonValue": "[{\"tableName\":\"TPCH_1.dbo.REGION\",\"columns\":[{\"DomainPrediction\":\"Number\",\"UserDomainPrediction\":\"Number\",\"aggregation\":null,\"alias\":\"R_REGIONKEY\",\"included\":true,\"name\":\"R_REGIONKEY\",\"systemDatatype\":\"int\",\"userDatatype\":\"Integer\"},{\"DomainPrediction\":\"String\",\"UserDomainPrediction\":\"String\",\"aggregation\":null,\"alias\":\"R_NAME\",\"included\":true,\"name\":\"R_NAME\",\"systemDatatype\":\"varchar\",\"userDatatype\":\"String\"},{\"DomainPrediction\":\"String\",\"UserDomainPrediction\":\"String\",\"aggregation\":null,\"alias\":\"R_COMMENT\",\"included\":true,\"name\":\"R_COMMENT\",\"systemDatatype\":\"varchar\",\"userDatatype\":\"String\"}],\"filter\":null,\"viewName\":\"QC_28562_TPCH_1_dbo_REGION_CUR\",\"selectedBDPColumns\":[],\"selectedColumnStatistics\":[]},{\"tableName\":\"TPCH_1.dbo.NATION\",\"columns\":[{\"DomainPrediction\":\"Number\",\"UserDomainPrediction\":\"Number\",\"aggregation\":null,\"alias\":\"N_NATIONKEY\",\"included\":true,\"name\":\"N_NATIONKEY\",\"systemDatatype\":\"int\",\"userDatatype\":\"Integer\"},{\"DomainPrediction\":\"Country\",\"UserDomainPrediction\":\"Country\",\"aggregation\":null,\"alias\":\"N_NAME\",\"included\":true,\"name\":\"N_NAME\",\"systemDatatype\":\"varchar\",\"userDatatype\":\"String\"},{\"DomainPrediction\":\"Number\",\"UserDomainPrediction\":\"Number\",\"aggregation\":null,\"alias\":\"N_REGIONKEY\",\"included\":true,\"name\":\"N_REGIONKEY\",\"systemDatatype\":\"int\",\"userDatatype\":\"Integer\"},{\"DomainPrediction\":\"String\",\"UserDomainPrediction\":\"String\",\"aggregation\":null,\"alias\":\"N_COMMENT\",\"included\":true,\"name\":\"N_COMMENT\",\"systemDatatype\":\"varchar\",\"userDatatype\":\"String\"}],\"filter\":null,\"viewName\":\"QC_28562_TPCH_1_dbo_NATION_CUR\",\"selectedBDPColumns\":[],\"selectedColumnStatistics\":[]},{\"tableName\":\"TPCH_1.dbo.SUPPLIER\",\"columns\":[{\"DomainPrediction\":\"Number\",\"UserDomainPrediction\":\"Number\",\"aggregation\":null,\"alias\":\"S_SUPPKEY\",\"included\":true,\"name\":\"S_SUPPKEY\",\"systemDatatype\":\"int\",\"userDatatype\":\"Integer\"},{\"DomainPrediction\":\"String\",\"UserDomainPrediction\":\"String\",\"aggregation\":null,\"alias\":\"S_NAME\",\"included\":true,\"name\":\"S_NAME\",\"systemDatatype\":\"varchar\",\"userDatatype\":\"String\"},{\"DomainPrediction\":\"String\",\"UserDomainPrediction\":\"String\",\"aggregation\":null,\"alias\":\"S_ADDRESS\",\"included\":true,\"name\":\"S_ADDRESS\",\"systemDatatype\":\"varchar\",\"userDatatype\":\"String\"},{\"DomainPrediction\":\"Number\",\"UserDomainPrediction\":\"Number\",\"aggregation\":null,\"alias\":\"S_NATIONKEY\",\"included\":true,\"name\":\"S_NATIONKEY\",\"systemDatatype\":\"int\",\"userDatatype\":\"Integer\"},{\"DomainPrediction\":\"String\",\"UserDomainPrediction\":\"String\",\"aggregation\":null,\"alias\":\"S_PHONE\",\"included\":true,\"name\":\"S_PHONE\",\"systemDatatype\":\"varchar\",\"userDatatype\":\"String\"},{\"DomainPrediction\":\"Number\",\"UserDomainPrediction\":\"Number\",\"aggregation\":null,\"alias\":\"S_ACCTBAL\",\"included\":true,\"name\":\"S_ACCTBAL\",\"systemDatatype\":\"decimal\",\"userDatatype\":\"Decimal\"},{\"DomainPrediction\":\"String\",\"UserDomainPrediction\":\"String\",\"aggregation\":null,\"alias\":\"S_COMMENT\",\"included\":true,\"name\":\"S_COMMENT\",\"systemDatatype\":\"varchar\",\"userDatatype\":\"String\"}],\"filter\":null,\"viewName\":\"QC_28562_TPCH_1_dbo_SUPPLIER_CUR\",\"selectedBDPColumns\":[],\"selectedColumnStatistics\":[]}]"
+      },
+      {
+        "Id": 241027,
+        "ScenarioId": null,
+        "QueryId": 28562,
+        "Job_Id": null,
+        "Step": 4,
+        "StepMapping": "20,4-[79,2]",
+        "TransformationId": 20,
+        "Description": "Email",
+        "Position": "position: absolute; left: 646.667px; top: 52.6354px;",
+        "CreatedOn": "2024-04-18T05:47:42.42",
+        "CreatedBy": 231,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null
       }
     ],
     "SimpleFilters": [],
@@ -368,9 +397,41 @@
         "JobletId": null,
         "Decision": null,
         "JobId": null
+      },
+      {
+        "Id": 151897,
+        "ScenarioId": null,
+        "QueryId": 28562,
+        "StepId": 4,
+        "Dependency": 20,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
       }
     ],
-    "EmailAlerts": [],
+    "EmailAlerts": [
+      {
+        "Query_Id": 28562,
+        "Job_Id": null,
+        "FailRDjobWhenRecon_F": null,
+        "DelayedTargetCompare": null,
+        "AttachResultsInEmail": false,
+        "ExportType": "",
+        "RaiseDefect": null,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": null,
+        "DependantStepId": 0,
+        "Scenario_Header_Id": null,
+        "WhenFaild": false,
+        "EmailWhen_F": "",
+        "WhenSuccess": true,
+        "EmailWhen_S": "kotari.dhanusha@getrightdata.com",
+        "CreatedBy": 231,
+        "CreatedOn": "2024-04-18T05:47:42.31",
+        "EmailTemplateId": null
+      }
+    ],
     "DataProfilings": [
       {
         "Id": 35906,
