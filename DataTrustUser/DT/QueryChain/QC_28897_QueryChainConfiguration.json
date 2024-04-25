@@ -29,7 +29,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Sandeep 4/25/2024 6:57:46 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Sandeep 4/25/2024 6:57:46 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH1.PUBLIC.ORDERS\\\" for data source \\\"SNOWFLAKE_J\\\"\",\"position\":\"position: absolute; left: 293.074px; top: 54.1602px;\",\"mapping\":\"2,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.3\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 583.234px; top: 112.625px;\",\"mapping\":\"79,3-[2,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Sandeep 4/25/2024 6:57:46 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRelTable_dropped.2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH1.PUBLIC.ORDERS\\\" for data source \\\"SNOWFLAKE_J\\\"\",\"position\":\"position: absolute; left: 293.074px; top: 54.1602px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,2-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"qcEndItem_dropped.3\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 583.234px; top: 112.625px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,3-[2,2]\",\"dsstep\":\"2\",\"activestatus\":null}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sandeep",
         "FId": 1,
@@ -38,10 +38,10 @@
     ],
     "QcDataSource": [
       {
-        "Id": 16101,
+        "Id": 16102,
         "Query_Id": 28897,
         "Profile_Id": 1579,
-        "DCStep_Id": 243538,
+        "DCStep_Id": 243550,
         "BlendStepId": null,
         "Query_Id_Id": null,
         "ResultTableName": null,
@@ -50,7 +50,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2024-04-25T06:59:34.977",
+        "CreatedOn": "2024-04-25T07:05:00.203",
         "CreatedBy": 265,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -90,8 +90,8 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 146262,
-        "QueryDataSourceId": 16101,
+        "Id": 146271,
+        "QueryDataSourceId": 16102,
         "DBlendId": null,
         "ProfileId": 1579,
         "TableName": "TPCH1.PUBLIC.ORDERS",
@@ -109,8 +109,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 146263,
-        "QueryDataSourceId": 16101,
+        "Id": 146272,
+        "QueryDataSourceId": 16102,
         "DBlendId": null,
         "ProfileId": 1579,
         "TableName": "TPCH1.PUBLIC.ORDERS",
@@ -128,8 +128,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 146264,
-        "QueryDataSourceId": 16101,
+        "Id": 146273,
+        "QueryDataSourceId": 16102,
         "DBlendId": null,
         "ProfileId": 1579,
         "TableName": "TPCH1.PUBLIC.ORDERS",
@@ -147,8 +147,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 146265,
-        "QueryDataSourceId": 16101,
+        "Id": 146274,
+        "QueryDataSourceId": 16102,
         "DBlendId": null,
         "ProfileId": 1579,
         "TableName": "TPCH1.PUBLIC.ORDERS",
@@ -166,8 +166,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 146266,
-        "QueryDataSourceId": 16101,
+        "Id": 146275,
+        "QueryDataSourceId": 16102,
         "DBlendId": null,
         "ProfileId": 1579,
         "TableName": "TPCH1.PUBLIC.ORDERS",
@@ -185,8 +185,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 146267,
-        "QueryDataSourceId": 16101,
+        "Id": 146276,
+        "QueryDataSourceId": 16102,
         "DBlendId": null,
         "ProfileId": 1579,
         "TableName": "TPCH1.PUBLIC.ORDERS",
@@ -204,8 +204,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 146268,
-        "QueryDataSourceId": 16101,
+        "Id": 146277,
+        "QueryDataSourceId": 16102,
         "DBlendId": null,
         "ProfileId": 1579,
         "TableName": "TPCH1.PUBLIC.ORDERS",
@@ -223,8 +223,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 146269,
-        "QueryDataSourceId": 16101,
+        "Id": 146278,
+        "QueryDataSourceId": 16102,
         "DBlendId": null,
         "ProfileId": 1579,
         "TableName": "TPCH1.PUBLIC.ORDERS",
@@ -242,8 +242,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 146270,
-        "QueryDataSourceId": 16101,
+        "Id": 146279,
+        "QueryDataSourceId": 16102,
         "DBlendId": null,
         "ProfileId": 1579,
         "TableName": "TPCH1.PUBLIC.ORDERS",
@@ -264,7 +264,7 @@
     "ObjectFilters": [],
     "DCSteps": [
       {
-        "Id": 243535,
+        "Id": 243549,
         "ScenarioId": null,
         "QueryId": 28897,
         "Job_Id": null,
@@ -273,7 +273,7 @@
         "TransformationId": 0,
         "Description": "Sandeep 4/25/2024 6:57:46 AM",
         "Position": null,
-        "CreatedOn": "2024-04-25T06:58:16.267",
+        "CreatedOn": "2024-04-25T07:05:00.267",
         "CreatedBy": 265,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -299,7 +299,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 243538,
+        "Id": 243550,
         "ScenarioId": null,
         "QueryId": 28897,
         "Job_Id": null,
@@ -308,7 +308,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH1.PUBLIC.ORDERS\" for data source \"SNOWFLAKE_J\"",
         "Position": "position: absolute; left: 293.074px; top: 54.1602px;",
-        "CreatedOn": "2024-04-25T06:59:34.783",
+        "CreatedOn": "2024-04-25T07:05:00.343",
         "CreatedBy": 265,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -334,7 +334,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 243540,
+        "Id": 243551,
         "ScenarioId": null,
         "QueryId": 28897,
         "Job_Id": null,
@@ -343,7 +343,7 @@
         "TransformationId": 79,
         "Description": "Sandeep#@4/25/2024 6:59:48 AM",
         "Position": null,
-        "CreatedOn": "2024-04-25T06:59:54.353",
+        "CreatedOn": "2024-04-25T07:05:00.41",
         "CreatedBy": 265,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -361,7 +361,7 @@
         "LATEST_OUTPUT_VIEW_NAME": "QC_28897_CUR",
         "Overwritesnapshot": false,
         "JsonValue": null,
-        "AppendToExistingData": false,
+        "AppendToExistingData": null,
         "IsActive": null,
         "Comments": null,
         "RunTimeJSON": null,
@@ -383,7 +383,7 @@
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
       {
-        "Id": 153322,
+        "Id": 153331,
         "ScenarioId": null,
         "QueryId": 28897,
         "StepId": 2,
