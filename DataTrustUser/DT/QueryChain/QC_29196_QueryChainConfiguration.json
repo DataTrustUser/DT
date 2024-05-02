@@ -29,7 +29,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Dhanusha 5/2/2024 12:34:27 PM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 5/2/2024 12:34:27 PM\",\"position\":\"position: absolute; left: 77px; top: 148.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch1.customer\\\" for data source \\\"PostgreSql_NJ\\\"\",\"position\":\"position: absolute; left: 277.698px; top: 152.177px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 512.667px; top: 141.635px;\",\"mapping\":\"79,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 729.667px; top: 136.635px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"Email_dropped.4\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 822.667px; top: 18.6354px;\",\"mapping\":\"20,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 5/2/2024 12:34:27 PM\",\"position\":\"position: absolute; left: 77px; top: 148.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch1.customer\\\" for data source \\\"PostgreSql_NJ\\\"\",\"position\":\"position: absolute; left: 277.698px; top: 152.177px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 512.667px; top: 141.635px;\",\"mapping\":\"79,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 729.667px; top: 136.635px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"Email_dropped.4\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 822.667px; top: 18.6354px;\",\"mapping\":\"20,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 635.667px; top: 266.635px;\",\"mapping\":\"88,5-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Dhanusha",
         "FId": 1,
@@ -437,6 +437,41 @@
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
+      },
+      {
+        "Id": 245792,
+        "ScenarioId": null,
+        "QueryId": 29196,
+        "Job_Id": null,
+        "Step": 5,
+        "StepMapping": "88,5-[79,2]",
+        "TransformationId": 88,
+        "Description": "Offload the File",
+        "Position": "position: absolute; left: 635.667px; top: 266.635px;",
+        "CreatedOn": "2024-05-02T12:39:47.207",
+        "CreatedBy": 231,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       }
     ],
     "SimpleFilters": [],
@@ -723,6 +758,26 @@
     "PivotDetails": [],
     "UnPivotDetails": [],
     "PivotFieldType": [],
-    "FileOffload": []
+    "FileOffload": [
+      {
+        "Id": 1807,
+        "Type": null,
+        "IsFileCreated": null,
+        "FileName": "QC_29196_Dhanusha 5/2/2024 12:34:27 PM",
+        "FilePath": null,
+        "FileSize": null,
+        "FileCreatedOn": "2024-05-02T12:39:47.223",
+        "FolderId": 0,
+        "ScenarioId": null,
+        "JobId": null,
+        "QueryId": 29196,
+        "SessionId": null,
+        "Row_Count": null,
+        "Delimiter": ",",
+        "TextQualifier": "\"",
+        "OverrideFile": false,
+        "Header": true
+      }
+    ]
   }
 ]
