@@ -23,14 +23,14 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Version_Control\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsCustomSequel_dropped_1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Read data from custom SQL query of the connection profile \\\"Snowflake\\\"\",\"position\":\"position: absolute; left: 348.062px; top: 98.0694px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,1-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsCustomSequel_dropped_2\",\"UniqueId\":\"61\",\"stepId\":\"2\",\"description\":\"Read data from custom SQL query of the connection profile \\\"Snowflake\\\"\",\"position\":\"position: absolute; left: 347.042px; top: 298.059px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,2-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dcSimpleFilters_dropped_5\",\"UniqueId\":\"66\",\"stepId\":\"5\",\"description\":\"P_SIZE < '15' \",\"position\":\"position: absolute; left: 556.066px; top: 292.035px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"66,5-[61,2]\",\"dsstep\":\"2\",\"activestatus\":null},{\"widgetId\":\"dsRecon_6\",\"UniqueId\":\"15\",\"stepId\":\"6\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 856.104px; top: 177.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"15,6-[61,1-66,5]\",\"activestatus\":null,\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Version_Control\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Read data from custom SQL query of the connection profile \\\"Snowflake\\\"\",\"position\":\"position: absolute; left: 348.062px; top: 98.0694px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,1-[0,0]\",\"dsstep\":\"null\",\"activestatus\":null,\"commented\":\"false\"},{\"widgetId\":\"dsCustomSequel_dropped_2\",\"UniqueId\":\"61\",\"stepId\":\"2\",\"description\":\"Read data from custom SQL query of the connection profile \\\"Snowflake\\\"\",\"position\":\"position: absolute; left: 347.042px; top: 298.059px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,2-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRecon_dropped_3\",\"UniqueId\":\"15\",\"stepId\":\"3\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 673.094px; top: 188.059px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"15,3-[61,1-61,2]\",\"dsstep\":null,\"activestatus\":null}]",
         "LevelOne_Id": null,
         "LevelTwo_Id": null,
         "LevelThree_Id": null,
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": 130,
         "MigratedOn": null,
-        "ModifiedOn": null,
+        "ModifiedOn": "2024-10-07T04:14:58.923",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -43,7 +43,7 @@
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}",
         "DropSourceData": true,
         "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":94},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":0}]",
-        "DoCompareOnSource": false,
+        "DoCompareOnSource": null,
         "ThreSholdValue": null,
         "FailedThreshold": null,
         "PassThreshold": null,
@@ -70,11 +70,11 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 1684,
+        "Id": 1783,
         "Scenario_Header_Id": 1385,
         "Profile_Id": 104,
         "Query_Id": null,
-        "DCStep_Id": 13969,
+        "DCStep_Id": 14223,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": null,
@@ -95,17 +95,17 @@
         "SF_Client_Secrect": null,
         "SF_Username": null,
         "SF_Password": null,
-        "SQL_Text": "SELECT * FROM TPCH1.PUBLIC.PART",
+        "SQL_Text": "SELECT * FROM TPCH1.PUBLIC.PART WHERE P_PARTKEY=10",
         "TableVizName": null,
         "ExtraColumnSC": null,
         "DefaultfParallelism": 1.0,
         "DefaultPacketSize": 50000.0,
         "MaxParallelism": null,
         "MaxPacketSize": null,
-        "UseLatestSession": null,
-        "ResultScenario_Id": null,
+        "UseLatestSession": false,
+        "ResultScenario_Id": 0,
         "ScenarioType": null,
-        "Scenario_SessionId": null,
+        "Scenario_SessionId": 0,
         "RemoveDuplicates": false,
         "OffsetDate": null,
         "OrderByValue": null,
@@ -120,15 +120,15 @@
         "ProfileName": "Snowflake",
         "CreatedOnSC": null,
         "CreatedBySC": null,
-        "ModifiedOnSC": null,
-        "ModifiedBySC": null
+        "ModifiedOnSC": "2024-10-07T04:14:58.89",
+        "ModifiedBySC": 130
       },
       {
-        "Id": 1685,
+        "Id": 1784,
         "Scenario_Header_Id": 1385,
         "Profile_Id": 104,
         "Query_Id": null,
-        "DCStep_Id": 13970,
+        "DCStep_Id": 14224,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": null,
@@ -183,7 +183,7 @@
     "Query": null,
     "DCSteps": [
       {
-        "Id": 13968,
+        "Id": 14222,
         "ScenarioId": 1385,
         "QueryId": null,
         "Job_Id": null,
@@ -192,8 +192,8 @@
         "TransformationId": 0,
         "Description": "Version_Control",
         "Position": null,
-        "CreatedOn": "2024-10-01T04:25:29.767",
-        "CreatedBy": 108,
+        "CreatedOn": "2024-10-07T04:12:00.433",
+        "CreatedBy": 130,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -220,7 +220,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 13969,
+        "Id": 14223,
         "ScenarioId": 1385,
         "QueryId": null,
         "Job_Id": null,
@@ -229,8 +229,8 @@
         "TransformationId": 61,
         "Description": "Read data from customer SQL query of the connection profile  \"Snowflake\"",
         "Position": "position: absolute; left: 348.062px; top: 98.0694px;",
-        "CreatedOn": "2024-10-01T04:25:29.923",
-        "CreatedBy": 108,
+        "CreatedOn": "2024-10-07T04:12:00.527",
+        "CreatedBy": 130,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -257,7 +257,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 13970,
+        "Id": 14224,
         "ScenarioId": 1385,
         "QueryId": null,
         "Job_Id": null,
@@ -266,8 +266,8 @@
         "TransformationId": 61,
         "Description": "Read data from customer SQL query of the connection profile  \"Snowflake\"",
         "Position": "position: absolute; left: 347.042px; top: 298.059px;",
-        "CreatedOn": "2024-10-01T04:25:30.32",
-        "CreatedBy": 108,
+        "CreatedOn": "2024-10-07T04:12:00.683",
+        "CreatedBy": 130,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -294,56 +294,19 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 13972,
+        "Id": 14225,
         "ScenarioId": 1385,
         "QueryId": null,
         "Job_Id": null,
-        "Step": 5,
-        "StepMapping": "66,5-[61,2]",
-        "TransformationId": 66,
-        "Description": "Filter data from Snowflake",
-        "Position": "position: absolute; left: 556.066px; top: 292.035px;",
-        "CreatedOn": "2024-10-01T04:25:30.773",
-        "CreatedBy": 108,
-        "ModifiedOn": null,
-        "ModifiedBy": null,
-        "Status": true,
-        "ErrorCodes": null,
-        "SourceOrTarget": null,
-        "DataSourcePK_Id": null,
-        "Warning": false,
-        "JobletId": null,
-        "Decision": null,
-        "MaxPacketSize": null,
-        "MaxParallelism": null,
-        "IsLastStep": null,
-        "PreviousMetaStructure": null,
-        "Overwritesnapshot": null,
-        "IsPreBlend": null,
-        "BlendStepId": null,
-        "LATEST_OUTPUT_VIEW_NAME": null,
-        "JsonValue": null,
-        "AppendToExistingData": null,
-        "IsActive": true,
-        "Comments": null,
-        "RunTimeJSON": null,
-        "IsMLRecommended": null,
-        "QueryTimeOut": null
-      },
-      {
-        "Id": 13973,
-        "ScenarioId": 1385,
-        "QueryId": null,
-        "Job_Id": null,
-        "Step": 6,
-        "StepMapping": "15,6-[61,1-66,5]",
+        "Step": 3,
+        "StepMapping": "15,3-[61,1-61,2]",
         "TransformationId": 15,
         "Description": "Map source & target fields",
-        "Position": "position: absolute; left: 856.104px; top: 177.069px;",
-        "CreatedOn": "2024-10-01T04:25:30.85",
-        "CreatedBy": 108,
-        "ModifiedOn": "2024-10-01T04:26:13.743",
-        "ModifiedBy": 108,
+        "Position": "position: absolute; left: 673.094px; top: 188.059px;",
+        "CreatedOn": "2024-10-07T04:12:00.76",
+        "CreatedBy": 130,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -386,7 +349,7 @@
     "DCStepsQC": [],
     "MapNRecon": [
       {
-        "Id": 7726,
+        "Id": 10245,
         "Scenario_Header_Id": 1385,
         "SourceColumnName": "P_PARTKEY",
         "SourceAliasColumnName": null,
@@ -404,8 +367,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-10-01T04:25:30.867",
-        "CreatedBy": 108,
+        "CreatedOn": "2024-10-07T04:12:00.777",
+        "CreatedBy": 130,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -414,7 +377,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 7727,
+        "Id": 10246,
         "Scenario_Header_Id": 1385,
         "SourceColumnName": "P_NAME",
         "SourceAliasColumnName": null,
@@ -432,8 +395,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-10-01T04:25:30.883",
-        "CreatedBy": 108,
+        "CreatedOn": "2024-10-07T04:12:00.79",
+        "CreatedBy": 130,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -442,7 +405,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 7728,
+        "Id": 10247,
         "Scenario_Header_Id": 1385,
         "SourceColumnName": "P_MFGR",
         "SourceAliasColumnName": null,
@@ -460,8 +423,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-10-01T04:25:30.913",
-        "CreatedBy": 108,
+        "CreatedOn": "2024-10-07T04:12:00.807",
+        "CreatedBy": 130,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -470,7 +433,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 7729,
+        "Id": 10248,
         "Scenario_Header_Id": 1385,
         "SourceColumnName": "P_BRAND",
         "SourceAliasColumnName": null,
@@ -488,8 +451,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-10-01T04:25:30.93",
-        "CreatedBy": 108,
+        "CreatedOn": "2024-10-07T04:12:00.823",
+        "CreatedBy": 130,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -498,7 +461,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 7730,
+        "Id": 10249,
         "Scenario_Header_Id": 1385,
         "SourceColumnName": "P_TYPE",
         "SourceAliasColumnName": null,
@@ -516,8 +479,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-10-01T04:25:30.947",
-        "CreatedBy": 108,
+        "CreatedOn": "2024-10-07T04:12:00.823",
+        "CreatedBy": 130,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -526,7 +489,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 7731,
+        "Id": 10250,
         "Scenario_Header_Id": 1385,
         "SourceColumnName": "P_SIZE",
         "SourceAliasColumnName": null,
@@ -544,8 +507,8 @@
         "IncludeTarget": null,
         "VariantThreshold": 0.0,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-10-01T04:25:30.96",
-        "CreatedBy": 108,
+        "CreatedOn": "2024-10-07T04:12:00.837",
+        "CreatedBy": 130,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -554,7 +517,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 7732,
+        "Id": 10251,
         "Scenario_Header_Id": 1385,
         "SourceColumnName": "P_CONTAINER",
         "SourceAliasColumnName": null,
@@ -572,8 +535,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-10-01T04:25:30.993",
-        "CreatedBy": 108,
+        "CreatedOn": "2024-10-07T04:12:00.853",
+        "CreatedBy": 130,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -582,7 +545,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 7733,
+        "Id": 10252,
         "Scenario_Header_Id": 1385,
         "SourceColumnName": "P_RETAILPRICE",
         "SourceAliasColumnName": null,
@@ -600,8 +563,8 @@
         "IncludeTarget": null,
         "VariantThreshold": 0.0,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-10-01T04:25:31.01",
-        "CreatedBy": 108,
+        "CreatedOn": "2024-10-07T04:12:00.87",
+        "CreatedBy": 130,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -610,7 +573,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 7734,
+        "Id": 10253,
         "Scenario_Header_Id": 1385,
         "SourceColumnName": "P_COMMENT",
         "SourceAliasColumnName": null,
@@ -628,8 +591,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2024-10-01T04:25:31.023",
-        "CreatedBy": 108,
+        "CreatedOn": "2024-10-07T04:12:00.87",
+        "CreatedBy": 130,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -641,8 +604,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 23725,
-        "ScenarioDataSourceId": 1684,
+        "Id": 28732,
+        "ScenarioDataSourceId": 1783,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -658,8 +621,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23726,
-        "ScenarioDataSourceId": 1684,
+        "Id": 28733,
+        "ScenarioDataSourceId": 1783,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -675,8 +638,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23727,
-        "ScenarioDataSourceId": 1684,
+        "Id": 28734,
+        "ScenarioDataSourceId": 1783,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -692,8 +655,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23728,
-        "ScenarioDataSourceId": 1684,
+        "Id": 28735,
+        "ScenarioDataSourceId": 1783,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -709,8 +672,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23729,
-        "ScenarioDataSourceId": 1684,
+        "Id": 28736,
+        "ScenarioDataSourceId": 1783,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -726,8 +689,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23730,
-        "ScenarioDataSourceId": 1684,
+        "Id": 28737,
+        "ScenarioDataSourceId": 1783,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -743,8 +706,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23731,
-        "ScenarioDataSourceId": 1684,
+        "Id": 28738,
+        "ScenarioDataSourceId": 1783,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -760,8 +723,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23732,
-        "ScenarioDataSourceId": 1684,
+        "Id": 28739,
+        "ScenarioDataSourceId": 1783,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -777,8 +740,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23733,
-        "ScenarioDataSourceId": 1684,
+        "Id": 28740,
+        "ScenarioDataSourceId": 1783,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -794,8 +757,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23734,
-        "ScenarioDataSourceId": 1685,
+        "Id": 28741,
+        "ScenarioDataSourceId": 1784,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -811,8 +774,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23735,
-        "ScenarioDataSourceId": 1685,
+        "Id": 28742,
+        "ScenarioDataSourceId": 1784,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -828,8 +791,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23736,
-        "ScenarioDataSourceId": 1685,
+        "Id": 28743,
+        "ScenarioDataSourceId": 1784,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -845,8 +808,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23737,
-        "ScenarioDataSourceId": 1685,
+        "Id": 28744,
+        "ScenarioDataSourceId": 1784,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -862,8 +825,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23738,
-        "ScenarioDataSourceId": 1685,
+        "Id": 28745,
+        "ScenarioDataSourceId": 1784,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -879,8 +842,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23739,
-        "ScenarioDataSourceId": 1685,
+        "Id": 28746,
+        "ScenarioDataSourceId": 1784,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -896,8 +859,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23740,
-        "ScenarioDataSourceId": 1685,
+        "Id": 28747,
+        "ScenarioDataSourceId": 1784,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -913,8 +876,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23741,
-        "ScenarioDataSourceId": 1685,
+        "Id": 28748,
+        "ScenarioDataSourceId": 1784,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -930,8 +893,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 23742,
-        "ScenarioDataSourceId": 1685,
+        "Id": 28749,
+        "ScenarioDataSourceId": 1784,
         "DBlendId": null,
         "ProfileId": 104,
         "TableName": null,
@@ -947,26 +910,7 @@
         "NewlyAddedColumn": null
       }
     ],
-    "SimpleFilters": [
-      {
-        "Id": 85,
-        "ScenarioId": 1385,
-        "CSV_Id": 0,
-        "DcStepId": 13972,
-        "DCTypeId": null,
-        "StepId": 5,
-        "DataSourceId": 1685,
-        "GlobalFilter": "P_SIZE < '15' ",
-        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Rightdata/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"P_PARTKEY\">P_PARTKEY</option><option value=\"P_NAME\">P_NAME</option><option value=\"P_MFGR\">P_MFGR</option><option value=\"P_BRAND\">P_BRAND</option><option value=\"P_TYPE\">P_TYPE</option><option value=\"P_SIZE\" selected=\"selected\">P_SIZE</option><option value=\"P_CONTAINER\">P_CONTAINER</option><option value=\"P_RETAILPRICE\">P_RETAILPRICE</option><option value=\"P_COMMENT\">P_COMMENT</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                     <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                        <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                            <option value=\"Select\">Select</option>                            <option value=\"Equals to\">Equals to</option>                            <option value=\"Not equals to\">Not equals to</option>                            <option value=\"Greater than\">Greater than</option>                            <option value=\"Greater than or equals to\">Greater than or equals to</option>                            <option value=\"Less than\" selected=\"selected\">Less than</option>                            <option value=\"Less than or equals to\">Less than or equals to</option>                            <option value=\"Like\">Like</option>                            <option value=\"Between\">Between</option>                            <option value=\"Not between\">Not between</option>                            <option value=\"AND\">AND</option>                            <option value=\"OR\">OR</option>                            <option value=\"Is null\">Is null</option>                            <option value=\"Is not null\">Is not null</option>                    <option value=\"IN\">IN</option>                        </select>                        <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                    </span><span data-background-icon=\"?\" class=\"EveryElement\">                                            <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                            <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"15\" size=\"3\">                                            <span class=\"InputTextboxSimpleF\" style=\"display: none;\">15</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                        </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
-        "CreatedBy": 110,
-        "CreatedOn": "2024-10-01T00:39:43.273",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
-        "JSON": null,
-        "Description": null,
-        "QueryId": null
-      }
-    ],
+    "SimpleFilters": [],
     "ObjectFilters": [],
     "AdvancedObjectFilter": [],
     "SimpleAggregations": [],
@@ -981,7 +925,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 11943,
+        "Id": 12173,
         "ScenarioId": 1385,
         "QueryId": null,
         "StepId": 0,
@@ -991,7 +935,7 @@
         "JobId": null
       },
       {
-        "Id": 11944,
+        "Id": 12174,
         "ScenarioId": 1385,
         "QueryId": null,
         "StepId": 1,
@@ -1001,7 +945,7 @@
         "JobId": null
       },
       {
-        "Id": 11945,
+        "Id": 12175,
         "ScenarioId": 1385,
         "QueryId": null,
         "StepId": 2,
@@ -1011,40 +955,10 @@
         "JobId": null
       },
       {
-        "Id": 11946,
+        "Id": 12176,
         "ScenarioId": 1385,
         "QueryId": null,
         "StepId": 3,
-        "Dependency": 15,
-        "JobletId": null,
-        "Decision": null,
-        "JobId": null
-      },
-      {
-        "Id": 11947,
-        "ScenarioId": 1385,
-        "QueryId": null,
-        "StepId": 4,
-        "Dependency": 0,
-        "JobletId": null,
-        "Decision": null,
-        "JobId": null
-      },
-      {
-        "Id": 11948,
-        "ScenarioId": 1385,
-        "QueryId": null,
-        "StepId": 5,
-        "Dependency": 0,
-        "JobletId": null,
-        "Decision": null,
-        "JobId": null
-      },
-      {
-        "Id": 11949,
-        "ScenarioId": 1385,
-        "QueryId": null,
-        "StepId": 6,
         "Dependency": 15,
         "JobletId": null,
         "Decision": null,
