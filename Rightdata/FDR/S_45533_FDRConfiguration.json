@@ -23,7 +23,7 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDAdmin 12/4/2024 5:05:14 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_dropped_1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"csv_ftp_5\\\" for data source \\\"Supplier_2\\\"\",\"position\":\"position: absolute; left: 436.8px; top: 143.638px;\",\"mapping\":\"3,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_dropped_2\",\"UniqueId\":\"3\",\"stepId\":\"2\",\"description\":\"Read data from \\\"csv_ftp_5\\\" for data source \\\"Supplier_2\\\"\",\"position\":\"position: absolute; left: 416.8px; top: 389.638px;\",\"mapping\":\"3,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRecon_dropped_3\",\"UniqueId\":\"15\",\"stepId\":\"3\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 664.8px; top: 260.638px;\",\"mapping\":\"15,3-[3,1-3,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsEmail_dropped_4\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 872.8px; top: 221.638px;\",\"mapping\":\"20,4-[15,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDAdmin 12/4/2024 5:05:14 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_dropped_1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"csv_ftp_5\\\" for data source \\\"Supplier_2\\\"\",\"position\":\"position: absolute; left: 436.8px; top: 143.638px;\",\"mapping\":\"3,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_dropped_2\",\"UniqueId\":\"3\",\"stepId\":\"2\",\"description\":\"Read data from \\\"csv_ftp_5\\\" for data source \\\"Supplier_2\\\"\",\"position\":\"position: absolute; left: 416.8px; top: 389.638px;\",\"mapping\":\"3,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRecon_dropped_3\",\"UniqueId\":\"15\",\"stepId\":\"3\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 664.8px; top: 260.638px;\",\"mapping\":\"15,3-[3,1-3,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsEmail_dropped_4\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 872.8px; top: 221.638px;\",\"mapping\":\"20,4-[15,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"MSTeams_dropped_5\",\"UniqueId\":\"156\",\"stepId\":\"5\",\"description\":\"MS Teams\",\"position\":\"position: absolute; left: 845.8px; top: 388.638px;\",\"mapping\":\"156,5-[15,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
         "LevelOne_Id": null,
         "LevelTwo_Id": null,
         "LevelThree_Id": null,
@@ -920,6 +920,43 @@
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
+      },
+      {
+        "Id": 281444,
+        "ScenarioId": 45533,
+        "QueryId": null,
+        "Job_Id": null,
+        "Step": 5,
+        "StepMapping": "156,5-[15,3]",
+        "TransformationId": 156,
+        "Description": "MS Teams",
+        "Position": "position: absolute; left: 845.8px; top: 388.638px;",
+        "CreatedOn": "2024-12-04T05:09:45.177",
+        "CreatedBy": 108,
+        "ModifiedOn": "2024-12-04T05:09:56.453",
+        "ModifiedBy": 108,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "Overwritesnapshot": null,
+        "IsPreBlend": null,
+        "BlendStepId": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": true,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       }
     ],
     "MigrateQCData": [],
@@ -1175,7 +1212,19 @@
         "JobId": null
       }
     ],
-    "ThirdPartyAPIParams": [],
+    "ThirdPartyAPIParams": [
+      {
+        "Id": 93268,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"DT_Teams\"]",
+        "ScenarioId": 45533,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null
+      }
+    ],
     "EmailAlerts": [
       {
         "Id": 17050,
